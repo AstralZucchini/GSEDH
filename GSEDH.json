@@ -94,7 +94,7 @@
 			"type": "custom",
 			"id": "5",
 			"image_uris": {
-				"large": "https://i.imgur.com/iZOizF4.png"},
+				"large": "https://i.imgur.com/iZOizF4.png" // "https://i.imgur.com/6XPTPbe.png"},
 			"mana_cost": "{3}{G}",
 			"cmc": 4,
 			"type_line": "Legendary Creature — Human Werewolf // Legendary Creature — Eldrazi Werewolf",
