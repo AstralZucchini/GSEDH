@@ -93,6 +93,8 @@
 			"name": "Anjali, Who Bleeds Silver // Those Forsaken by the Moon",
 			"type": "custom",
 			"id": "5",
+			"image_uris": {
+				"large": "https://i.imgur.com/iZOizF4.png"},
 			"mana_cost": "{3}{G}",
 			"cmc": 4,
 			"type_line": "Legendary Creature — Human Werewolf // Legendary Creature — Eldrazi Werewolf",
