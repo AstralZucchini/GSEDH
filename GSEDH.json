@@ -1,490 +1,379 @@
 {
-  "repo_name": "GSEDH",
-  "data": [
-    {
-      "name": "Arline Junette",
-      "type": "custom",
-      "id": "1",
-      "image_uris": {
-        "large": "https://i.imgur.com/HeUBYcU.png"
-      },
-      "mana_cost": "{4}{W}",
-      "cmc": 5,
-      "type_line": "Legendary Creature — Dwarf Bard",
-      "oracle_text": "Vigilance\nEquipment you control have Job select.\nEach noncreature Saga you control is a Moogle creature in addition to its other types with power and toughness are each equal to its mana value.\nExhaust — {W}{U}{B}{R}{G}: Search your library for an Equipment card and a Saga card and reveal them. Put them into your hand, then shuffle.",
-      "power": "3",
-      "toughness": "4",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W",
-        "U",
-        "B",
-        "R",
-        "G"
-      ]
-    },
-    {
-      "name": "Iago, Prince of the Night",
-      "type": "custom",
-      "id": "2",
-      "image_uris": {
-        "large": "https://i.imgur.com/KHe8Pyr.png"
-      },
-      "mana_cost": "{2}{U}",
-      "cmc": 3,
-      "type_line": "Legendary Creature — Faerie Rogue Noble",
-      "oracle_text": "Flying\nDuring turns other than yours, spells you cast cost {1} less to cast.\nWhenever you cast an instant spell or a spell with flash, you may pay {W}{B}. If you do, each opponent loses X life and you gain X life, where X is that spell’s mana value.",
-      "power": "2",
-      "toughness": "1",
-      "colors": [
-        "U"
-      ],
-      "color_identity": [
-        "W",
-        "U",
-        "B"
-      ]
-    },
-    {
-      "name": "Veha, Herald of the Downpour",
-      "type": "custom",
-      "id": "3",
-      "image_uris": {
-        "large": "https://i.imgur.com/Ug2e9TA.png"
-      },
-      "mana_cost": "{2}{U}",
-      "cmc": 3,
-      "type_line": "Legendary Creature — Faerie Dragon",
-      "oracle_text": "Partner with Kirit, Who Fells the Sky\nFlying\nWhenever you cast your second spell each turn, mill cards until you mill a land card, then put up to one card from your graveyard on the bottom of your library.\nWhenever one or more land cards are put into or leave your graveyard, put a +1/+1 counter on Veha.",
-      "power": "1",
-      "toughness": "1",
-      "colors": [
-        "U"
-      ],
-      "color_identity": [
-        "U"
-      ]
-    },
-    {
-      "name": "Kirit, Who Fells the Sky",
-      "type": "custom",
-      "id": "4",
-      "image_uris": {
-        "large": "https://i.imgur.com/Qme80nf.png"
-      },
-      "mana_cost": "{2}{B}{G}",
-      "cmc": 4,
-      "type_line": "Legendary Creature — Naga Ranger",
-      "oracle_text": "Partner with Veha, Herald of the Downpour\nAt the beginning of combat on your turn, return target land card from your graveyard to the battlefield with three +1/+1 counters on it. It becomes a 0/0 Elemental creature with vigilance, reach, and haste that’s still a land.\nSacrifice a land: Kirit gains indestructible until end of turn. Tap it.",
-      "power": "3",
-      "toughness": "3",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "color_identity": [
-        "B",
-        "G"
-      ]
-    },
-    {
-      "name": "Anjali, Who Bleeds Silver // Those Forsaken by the Moon",
-      "type": "custom",
-      "id": "5",
-      "mana_cost": "{3}{G}",
-      "cmc": 4,
-      "type_line": "Legendary Creature — Human Werewolf // Legendary Creature — Eldrazi Werewolf",
-      "colors": [
-        "G"
-      ],
-      "color_identity": [
-        "U",
-        "R",
-        "G"
-      ],
-      "card_faces": [
-        {
-          "name": "Anjali, Who Bleeds Silver",
-          "image_uris": {
-            "large": "https://i.imgur.com/iZOizF4.png"
-          },
-          "mana_cost": "{3}{G}",
-          "type_line": "Legendary Creature — Human Werewolf",
-          "oracle_text": "Duskbringer {3}{U}{R} (You may cast this card for {3}{U}{R} or pay {3}{U}{R} as a sorcery. When you do, it becomes night.)\nWhenever this creature enters or transforms into Anjali, create a 3/2 Wolf creature token, then you may put a permanent card from your graveyard on top of your library.\nDaybound",
-          "power": "2",
-          "toughness": "3"
-        },
-        {
-          "name": "Those Forsaken by the Moon",
-          "image_uris": {
-            "large": "https://i.imgur.com/6XPTPbe.png"
-          },
-          "type_line": "Legendary Creature — Eldrazi Werewolf",
-          "oracle_text": "Dawnbringer {3}{G} (You may pay {3}{G} as a sorcery. When you do, it becomes day.)\nWhenever this creature enters or transforms into Those Forsaken by the Moon, if you control a token creature, discover X, where X is the greatest power among creature tokens you control.\nNightbound",
-          "power": "5",
-          "toughness": "5"
-        }
-      ]
-    },
-    {
-      "name": "Pieza, Piety Through Penance // Down Payment",
-      "type": "custom",
-      "id": "6",
-      "image_uris": {
-        "large": "https://i.imgur.com/zDvO5Qg.png"
-      },
-      "mana_cost": "{2}{W}{B}{-}{2}{G}",
-      "cmc": 4,
-      "type_line": "Legendary Creature — Human Cleric // Instant — Adventure",
-      "colors": [
-        "W",
-        "B"
-      ],
-      "color_identity": [
-        "W",
-        "B",
-        "G"
-      ],
-      "card_faces": [
-        {
-          "name": "Pieza, Piety Through Penance",
-          "mana_cost": "{2}{W}{B}",
-          "type_line": "Legendary Creature — Human Cleric",
-          "oracle_text": "Deathtouch\nExtort\nTreasure tokens you control have extort.\n{W}{B}, Discard a card: Exile Pieza. You may cast it this turn.",
-          "power": "2",
-          "toughness": "4"
-        },
-        {
-          "name": "Down Payment",
-          "mana_cost": "{2}{G}",
-          "type_line": "Instant — Adventure",
-          "oracle_text": "The next time one or more tokens enter this turn, for each of them, create a tapped token copy of it."
-        }
-      ]
-    },
-    {
-      "name": "Kagai, Weaver of Lies",
-      "type": "custom",
-      "id": "7",
-      "image_uris": {
-        "large": "https://i.imgur.com/3cmrASK.png"
-      },
-      "mana_cost": "{2}{U}{B}{R}",
-      "cmc": 5,
-      "type_line": "Legendary Creature — Human Warlock",
-      "oracle_text": "Ward—Sacrifice a creature\nMorbid — At the beginning of each end step, if a creature died this turn, each player exiles an instant or sorcery card at random from their graveyard. Copy one of the exiled cards. You may cast the copy without paying its mana cost.",
-      "power": "4",
-      "toughness": "4",
-      "colors": [
-        "U",
-        "B",
-        "R"
-      ],
-      "color_identity": [
-        "U",
-        "B",
-        "R"
-      ]
-    },
-    {
-      "name": "Jett, Syndicate Mastermind",
-      "type": "custom",
-      "id": "8",
-      "image_uris": {
-        "large": "https://i.imgur.com/DXVZrnD.png"
-      },
-      "mana_cost": "{R}{G}",
-      "cmc": 2,
-      "type_line": "Legendary Creature — Devil Assassin",
-      "oracle_text": "At the beginning of combat on your turn, you may pay {RG}. If you do, create a 1/1 red and green Mercenary creature token with menace and haste.\nJett has all activated abilities and all triggered abilities of tokens you control that don’t have the same name as this creature. The same is true for, flying, first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance.",
-      "power": "2",
-      "toughness": "1",
-      "colors": [
-        "R",
-        "G"
-      ],
-      "color_identity": [
-        "R",
-        "G"
-      ]
-    },
-    {
-      "name": "Jenevieve, the Timekeeper",
-      "type": "custom",
-      "id": "9",
-      "image_uris": {
-        "large": "https://i.imgur.com/Itd7KsI.png"
-      },
-      "mana_cost": "{1}{U}{B}",
-      "cmc": 3,
-      "type_line": "Legendary Creature — Dwarf Bard",
-      "oracle_text": "Deathtouch\nWhen Jenevieve, the Timekeeper enters or attacks, time travel.\nWhenever you discard a nonland card, you may exile it from your graveyard with five time counters on it. If it doesn’t have suspend, it gains suspend. Do this only once each turn.",
-      "power": "2",
-      "toughness": "4",
-      "colors": [
-        "U",
-        "B"
-      ],
-      "color_identity": [
-        "U",
-        "B"
-      ]
-    },
-    {
-      "name": "The Iron Chef",
-      "type": "custom",
-      "id": "10",
-      "image_uris": {
-        "large": "https://i.imgur.com/lh2k2xI.png"
-      },
-      "mana_cost": "{B}{R}{G}{W}",
-      "cmc": 4,
-      "type_line": "Legendary Artifact Creature — Construct",
-      "oracle_text": "When The Iron Chef enters and at the beginning of your upkeep, create your choice of a Flapjacks token, a Gumbo token, a Jerk Chicken token, or a Pecan Pie token.\n{4}: Target Food becomes your Signature Dish. (When creating Food tokens, you may instead create that many copies of your Signature Dish.)",
-      "power": "5",
-      "toughness": "4",
-      "colors": [
-        "W",
-        "B",
-        "R",
-        "G"
-      ],
-      "color_identity": [
-        "W",
-        "B",
-        "R",
-        "G"
-      ]
-    },
-    {
-      "name": "He Who Shaped the World",
-      "type": "custom",
-      "id": "11",
-      "image_uris": {
-        "large": "https://i.imgur.com/AfX13vF.png"
-      },
-      "mana_cost": "{W}{U}{B}{R}{G}",
-      "cmc": 5,
-      "type_line": "Legendary Creature — Avatar",
-      "oracle_text": "When this creature enters and at the beginning of your upkeep, exile the top five cards of your library. Until your next turn, you may play one of those cards. When you do, put a time counter on this creature. Then if there are seven or more time counters on it, you win the game.\nSpells you cast from exile cost {1} less to cast for each time counter on this creature.",
-      "power": "7",
-      "toughness": "7",
-      "colors": [
-        "W",
-        "U",
-        "B",
-        "R",
-        "G"
-      ],
-      "color_identity": [
-        "W",
-        "U",
-        "B",
-        "R",
-        "G"
-      ]
-    },
-    {
-      "name": "Hanaa, Shepherd of the Meek",
-      "type": "custom",
-      "id": "12",
-      "image_uris": {
-        "large": "https://i.imgur.com/S8YZGaK.png"
-      },
-      "mana_cost": "{2}{G}{W}",
-      "cmc": 4,
-      "type_line": "Legendary Creature — Human Nomad",
-      "oracle_text": "Vigilance\nLandfall — Whenever a land you control enters, look at the top four cards of your library. You may put a creature card with mana value 3 or less from among them onto the battlefield with a lifelink counter on it. Put the rest on the bottom of your library in a random order. This ability triggers only once each turn.",
-      "power": "3",
-      "toughness": "4",
-      "colors": [
-        "W",
-        "G"
-      ],
-      "color_identity": [
-        "W",
-        "G"
-      ]
-    },
-    {
-      "name": "Barash, The Orchemist",
-      "type": "custom",
-      "id": "13",
-      "image_uris": {
-        "large": "https://i.imgur.com/ZiQJuMc.png"
-      },
-      "mana_cost": "{B}{R}{G}",
-      "cmc": 3,
-      "type_line": "Legendary Creature — Orc Druid",
-      "oracle_text": "Haste\nWhenever Barash enters or attacks, Create your choice of a Junk token, a Treasure token, or a Food token. Then if you control a Junk, a Treasure, and a Food, create Buddy, a legendary 1/1 green Cat creature token with trample, haste, and devour tokens 2. If Barash is attacking, you may also have Buddy enter tapped and attacking.",
-      "power": "3",
-      "toughness": "4",
-      "colors": [
-        "B",
-        "R",
-        "G"
-      ],
-      "color_identity": [
-        "B",
-        "R",
-        "G"
-      ]
-    },
-    {
-      "name": "Barash, The Orchemist",
-      "type": "custom",
-      "id": "14",
-      "image_uris": {
-        "large": "https://i.imgur.com/Ds1LwLQ.png"
-      },
-      "mana_cost": "{B}{R}{G}",
-      "cmc": 3,
-      "type_line": "Legendary Creature — Orc Druid",
-      "oracle_text": "Haste\nWhenever Barash enters or attacks, Create your choice of a Junk token, a Treasure token, or a Food token. Then if you control a Junk, a Treasure, and a Food, create Buddy, a legendary 1/1 green Cat creature token with trample, haste, and devour tokens 2. If Barash is attacking, you may also have Buddy enter tapped and attacking.",
-      "power": "3",
-      "toughness": "4",
-      "colors": [
-        "B",
-        "R",
-        "G"
-      ],
-      "color_identity": [
-        "B",
-        "R",
-        "G"
-      ]
-    },
-    {
-      "name": "Apollyon, Envoy of the End",
-      "type": "custom",
-      "id": "15",
-      "image_uris": {
-        "large": "https://i.imgur.com/a1I8DYi.png"
-      },
-      "mana_cost": "{3}{G}{W}{U}",
-      "cmc": 6,
-      "type_line": "Legendary Creature — Elder Angel",
-      "oracle_text": "Flying\nAt the beginning of combat on your turn, scry 2, then reveal the top card of your library. If it’s an Aura card, for each creature you control that Aura could target, create a token that’s a copy of that card attached to that creature. Otherwise, put that card into your hand and you gain life equal to its mana value.",
-      "power": "6",
-      "toughness": "6",
-      "colors": [
-        "W",
-        "U",
-        "G"
-      ],
-      "color_identity": [
-        "W",
-        "U",
-        "G"
-      ]
-    },
-    {
-      "name": "Wolf",
-      "type": "custom",
-      "id": "16",
-      "image_uris": {
-        "large": "https://i.imgur.com/kvDjRDS.png"
-      },
-      "cmc": 0,
-      "type_line": "Token Creature — Wolf",
-      "power": "3",
-      "toughness": "2",
-      "colors": [
-        "G"
-      ],
-      "color_identity": [
-        "G"
-      ]
-    },
-    {
-      "name": "Mercenary",
-      "type": "custom",
-      "id": "17",
-      "image_uris": {
-        "large": "https://i.imgur.com/63MHdCX.png"
-      },
-      "cmc": 0,
-      "type_line": "Token Creature — Mercenary",
-      "oracle_text": "Menace, haste",
-      "power": "1",
-      "toughness": "1",
-      "colors": [
-        "R",
-        "G"
-      ],
-      "color_identity": [
-        "R",
-        "G"
-      ]
-    },
-    {
-      "name": "Buddy",
-      "type": "custom",
-      "id": "18",
-      "image_uris": {
-        "large": "https://i.imgur.com/1xvrRMC.png"
-      },
-      "cmc": 0,
-      "type_line": "Token Legendary Creature — Cat",
-      "oracle_text": "Trample, haste\nDevour tokens 2",
-      "power": "1",
-      "toughness": "1",
-      "colors": [
-        "G"
-      ],
-      "color_identity": [
-        "G"
-      ]
-    },
-    {
-      "name": "Flapjacks",
-      "type": "custom",
-      "id": "19",
-      "image_uris": {
-        "large": "https://i.imgur.com/LPeVr6b.png"
-      },
-      "cmc": 0,
-      "type_line": "Token Artifact — Food",
-      "oracle_text": "{2}, {T}, Sacrifice this artifact: You gain 3 life.\nWhen you sacrifice this Food, target creature gains trample and haste until end of turn.",
-      "color_identity": []
-    },
-    {
-      "name": "Gumbo",
-      "type": "custom",
-      "id": "20",
-      "image_uris": {
-        "large": "https://i.imgur.com/Y9Emo4Z.png"
-      },
-      "cmc": 0,
-      "type_line": "Token Artifact — Food",
-      "oracle_text": "{2}, {T}, Sacrifice this artifact: You gain 3 life.\nWhen you sacrifice this Food, it deals 3 damage to any target.",
-      "color_identity": []
-    },
-    {
-      "name": "Jerk Chicken",
-      "type": "custom",
-      "id": "21",
-      "image_uris": {
-        "large": "https://i.imgur.com/vJeqINT.png"
-      },
-      "cmc": 0,
-      "type_line": "Token Artifact — Food",
-      "oracle_text": "{2}, {T}, Sacrifice this artifact: You gain 3 life.\nWhen you sacrifice this Food, surveil 1, then draw a card.",
-      "color_identity": []
-    },
-    {
-      "name": "Pecan Pie",
-      "type": "custom",
-      "id": "22",
-      "image_uris": {
-        "large": "https://i.imgur.com/BZrD3Ub.png"
-      },
-      "cmc": 0,
-      "type_line": "Token Artifact — Food",
-      "oracle_text": "This artifact enters tapped.\n{2}, {T}, Sacrifice this artifact: You gain 3 life.\n{T}, Sacrifice this artifact: Add one mana of any color.",
-      "color_identity": []
-    }
-  ]
+	"repo_name": "GSEDH",
+	"data": [
+		{
+			"name": "Arline Junette",
+			"type": "custom",
+			"id": "1",
+			"image_uris": {
+				"large": "https://i.imgur.com/HeUBYcU.png"
+			},
+			"mana_cost": "{4}{W}",
+			"cmc": 5,
+			"type_line": "Legendary Creature — Dwarf Bard",
+			"oracle_text": "Vigilance\nEquipment you control have Job select.\nEach noncreature Saga you control is a Moogle creature in addition to its other types with power and toughness are each equal to its mana value.\nExhaust — {W}{U}{B}{R}{G}: Search your library for an Equipment card and a Saga card and reveal them. Put them into your hand, then shuffle.",
+			"power": "3",
+			"toughness": "4",
+			"colors": [
+				"W"
+			],
+			"color_identity": [
+				"W",
+				"U",
+				"B",
+				"R",
+				"G"
+			]
+		},
+		{
+			"name": "Iago, Prince of the Night",
+			"type": "custom",
+			"id": "2",
+			"image_uris": {
+				"large": "https://i.imgur.com/KHe8Pyr.png"
+			},
+			"mana_cost": "{2}{U}",
+			"cmc": 3,
+			"type_line": "Legendary Creature — Faerie Rogue Noble",
+			"oracle_text": "Flying\nDuring turns other than yours, spells you cast cost {1} less to cast.\nWhenever you cast an instant spell or a spell with flash, you may pay {W}{B}. If you do, each opponent loses X life and you gain X life, where X is that spell’s mana value.",
+			"power": "2",
+			"toughness": "1",
+			"colors": [
+				"U"
+			],
+			"color_identity": [
+				"W",
+				"U",
+				"B"
+			]
+		},
+		{
+			"name": "Veha, Herald of the Downpour",
+			"type": "custom",
+			"id": "3",
+			"image_uris": {
+				"large": "https://i.imgur.com/Ug2e9TA.png"
+			},
+			"mana_cost": "{2}{U}",
+			"cmc": 3,
+			"type_line": "Legendary Creature — Faerie Dragon",
+			"oracle_text": "Partner with Kirit, Who Fells the Sky\nFlying\nWhenever you cast your second spell each turn, mill cards until you mill a land card, then put up to one card from your graveyard on the bottom of your library.\nWhenever one or more land cards are put into or leave your graveyard, put a +1/+1 counter on Veha.",
+			"power": "1",
+			"toughness": "1",
+			"colors": [
+				"U"
+			],
+			"color_identity": [
+				"U"
+			]
+		},
+		{
+			"name": "Kirit, Who Fells the Sky",
+			"type": "custom",
+			"id": "4",
+			"image_uris": {
+				"large": "https://i.imgur.com/Qme80nf.png"
+			},
+			"mana_cost": "{2}{B}{G}",
+			"cmc": 4,
+			"type_line": "Legendary Creature — Naga Ranger",
+			"oracle_text": "Partner with Veha, Herald of the Downpour\nAt the beginning of combat on your turn, return target land card from your graveyard to the battlefield with three +1/+1 counters on it. It becomes a 0/0 Elemental creature with vigilance, reach, and haste that’s still a land.\nSacrifice a land: Kirit gains indestructible until end of turn. Tap it.",
+			"power": "3",
+			"toughness": "3",
+			"colors": [
+				"B",
+				"G"
+			],
+			"color_identity": [
+				"B",
+				"G"
+			]
+		},
+		{
+			"name": "Anjali, Who Bleeds Silver // Those Forsaken by the Moon",
+			"type": "custom",
+			"id": "5",
+			"mana_cost": "{3}{G}",
+			"cmc": 4,
+			"type_line": "Legendary Creature — Human Werewolf // Legendary Creature — Eldrazi Werewolf",
+			"colors": [
+				"G"
+			],
+			"color_identity": [
+				"U",
+				"R",
+				"G"
+			],
+			"card_faces": [
+				{
+					"name": "Anjali, Who Bleeds Silver",
+					"image_uris": {
+						"large": "https://i.imgur.com/iZOizF4.png"
+					},
+					"mana_cost": "{3}{G}",
+					"type_line": "Legendary Creature — Human Werewolf",
+					"oracle_text": "Duskbringer {3}{U}{R} (You may cast this card for {3}{U}{R} or pay {3}{U}{R} as a sorcery. When you do, it becomes night.)\nWhenever this creature enters or transforms into Anjali, create a 3/2 Wolf creature token, then you may put a permanent card from your graveyard on top of your library.\nDaybound",
+					"power": "2",
+					"toughness": "3"
+				},
+				{
+					"name": "Those Forsaken by the Moon",
+					"image_uris": {
+						"large": "https://i.imgur.com/6XPTPbe.png"
+					},
+					"type_line": "Legendary Creature — Eldrazi Werewolf",
+					"oracle_text": "Dawnbringer {3}{G} (You may pay {3}{G} as a sorcery. When you do, it becomes day.)\nWhenever this creature enters or transforms into Those Forsaken by the Moon, if you control a token creature, discover X, where X is the greatest power among creature tokens you control.\nNightbound",
+					"power": "5",
+					"toughness": "5"
+				}
+			]
+		},
+		{
+			"name": "Pieza, Piety Through Penance // Down Payment",
+			"type": "custom",
+			"id": "6",
+			"image_uris": {
+				"large": "https://i.imgur.com/zDvO5Qg.png"
+			},
+			"mana_cost": "{2}{W}{B}{-}{2}{G}",
+			"cmc": 4,
+			"type_line": "Legendary Creature — Human Cleric // Instant — Adventure",
+			"colors": [
+				"W",
+				"B"
+			],
+			"color_identity": [
+				"W",
+				"B",
+				"G"
+			],
+			"card_faces": [
+				{
+					"name": "Pieza, Piety Through Penance",
+					"mana_cost": "{2}{W}{B}",
+					"type_line": "Legendary Creature — Human Cleric",
+					"oracle_text": "Deathtouch\nExtort\nTreasure tokens you control have extort.\n{W}{B}, Discard a card: Exile Pieza. You may cast it this turn.",
+					"power": "2",
+					"toughness": "4"
+				},
+				{
+					"name": "Down Payment",
+					"mana_cost": "{2}{G}",
+					"type_line": "Instant — Adventure",
+					"oracle_text": "The next time one or more tokens enter this turn, for each of them, create a tapped token copy of it."
+				}
+			]
+		},
+		{
+			"name": "Kagai, Weaver of Lies",
+			"type": "custom",
+			"id": "7",
+			"image_uris": {
+				"large": "https://i.imgur.com/3cmrASK.png"
+			},
+			"mana_cost": "{2}{U}{B}{R}",
+			"cmc": 5,
+			"type_line": "Legendary Creature — Human Warlock",
+			"oracle_text": "Ward—Sacrifice a creature\nMorbid — At the beginning of each end step, if a creature died this turn, each player exiles an instant or sorcery card at random from their graveyard. Copy one of the exiled cards. You may cast the copy without paying its mana cost.",
+			"power": "4",
+			"toughness": "4",
+			"colors": [
+				"U",
+				"B",
+				"R"
+			],
+			"color_identity": [
+				"U",
+				"B",
+				"R"
+			]
+		},
+		{
+			"name": "Jett, Syndicate Mastermind",
+			"type": "custom",
+			"id": "8",
+			"image_uris": {
+				"large": "https://i.imgur.com/DXVZrnD.png"
+			},
+			"mana_cost": "{R}{G}",
+			"cmc": 2,
+			"type_line": "Legendary Creature — Devil Assassin",
+			"oracle_text": "At the beginning of combat on your turn, you may pay {RG}. If you do, create a 1/1 red and green Mercenary creature token with menace and haste.\nJett has all activated abilities and all triggered abilities of tokens you control that don’t have the same name as this creature. The same is true for, flying, first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance.",
+			"power": "2",
+			"toughness": "1",
+			"colors": [
+				"R",
+				"G"
+			],
+			"color_identity": [
+				"R",
+				"G"
+			]
+		},
+		{
+			"name": "Jenevieve, the Timekeeper",
+			"type": "custom",
+			"id": "9",
+			"image_uris": {
+				"large": "https://i.imgur.com/Itd7KsI.png"
+			},
+			"mana_cost": "{1}{U}{B}",
+			"cmc": 3,
+			"type_line": "Legendary Creature — Dwarf Bard",
+			"oracle_text": "Deathtouch\nWhen Jenevieve, the Timekeeper enters or attacks, time travel.\nWhenever you discard a nonland card, you may exile it from your graveyard with five time counters on it. If it doesn’t have suspend, it gains suspend. Do this only once each turn.",
+			"power": "2",
+			"toughness": "4",
+			"colors": [
+				"U",
+				"B"
+			],
+			"color_identity": [
+				"U",
+				"B"
+			]
+		},
+		{
+			"name": "The Iron Chef",
+			"type": "custom",
+			"id": "10",
+			"image_uris": {
+				"large": "https://i.imgur.com/lh2k2xI.png"
+			},
+			"mana_cost": "{B}{R}{G}{W}",
+			"cmc": 4,
+			"type_line": "Legendary Artifact Creature — Construct",
+			"oracle_text": "When The Iron Chef enters and at the beginning of your upkeep, create your choice of a Flapjacks token, a Gumbo token, a Jerk Chicken token, or a Pecan Pie token.\n{4}: Target Food becomes your Signature Dish. (When creating Food tokens, you may instead create that many copies of your Signature Dish.)",
+			"power": "5",
+			"toughness": "4",
+			"colors": [
+				"W",
+				"B",
+				"R",
+				"G"
+			],
+			"color_identity": [
+				"W",
+				"B",
+				"R",
+				"G"
+			]
+		},
+		{
+			"name": "He Who Shaped the World",
+			"type": "custom",
+			"id": "11",
+			"image_uris": {
+				"large": "https://i.imgur.com/AfX13vF.png"
+			},
+			"mana_cost": "{W}{U}{B}{R}{G}",
+			"cmc": 5,
+			"type_line": "Legendary Creature — Avatar",
+			"oracle_text": "When this creature enters and at the beginning of your upkeep, exile the top five cards of your library. Until your next turn, you may play one of those cards. When you do, put a time counter on this creature. Then if there are seven or more time counters on it, you win the game.\nSpells you cast from exile cost {1} less to cast for each time counter on this creature.",
+			"power": "7",
+			"toughness": "7",
+			"colors": [
+				"W",
+				"U",
+				"B",
+				"R",
+				"G"
+			],
+			"color_identity": [
+				"W",
+				"U",
+				"B",
+				"R",
+				"G"
+			]
+		},
+		{
+			"name": "Hanaa, Shepherd of the Meek",
+			"type": "custom",
+			"id": "12",
+			"image_uris": {
+				"large": "https://i.imgur.com/S8YZGaK.png"
+			},
+			"mana_cost": "{2}{G}{W}",
+			"cmc": 4,
+			"type_line": "Legendary Creature — Human Nomad",
+			"oracle_text": "Vigilance\nLandfall — Whenever a land you control enters, look at the top four cards of your library. You may put a creature card with mana value 3 or less from among them onto the battlefield with a lifelink counter on it. Put the rest on the bottom of your library in a random order. This ability triggers only once each turn.",
+			"power": "3",
+			"toughness": "4",
+			"colors": [
+				"W",
+				"G"
+			],
+			"color_identity": [
+				"W",
+				"G"
+			]
+		},
+		{
+			"name": "Barash, The Orchemist",
+			"type": "custom",
+			"id": "13",
+			"image_uris": {
+				"large": "https://i.imgur.com/ZiQJuMc.png"
+			},
+			"mana_cost": "{B}{R}{G}",
+			"cmc": 3,
+			"type_line": "Legendary Creature — Orc Druid",
+			"oracle_text": "Haste\nWhenever Barash enters or attacks, Create your choice of a Junk token, a Treasure token, or a Food token. Then if you control a Junk, a Treasure, and a Food, create Buddy, a legendary 1/1 green Cat creature token with trample, haste, and devour tokens 2. If Barash is attacking, you may also have Buddy enter tapped and attacking.",
+			"power": "3",
+			"toughness": "4",
+			"colors": [
+				"B",
+				"R",
+				"G"
+			],
+			"color_identity": [
+				"B",
+				"R",
+				"G"
+			]
+		},
+		{
+			"name": "Barash, The Orchemist",
+			"type": "custom",
+			"id": "14",
+			"image_uris": {
+				"large": "https://i.imgur.com/Ds1LwLQ.png"
+			},
+			"mana_cost": "{B}{R}{G}",
+			"cmc": 3,
+			"type_line": "Legendary Creature — Orc Druid",
+			"oracle_text": "Haste\nWhenever Barash enters or attacks, Create your choice of a Junk token, a Treasure token, or a Food token. Then if you control a Junk, a Treasure, and a Food, create Buddy, a legendary 1/1 green Cat creature token with trample, haste, and devour tokens 2. If Barash is attacking, you may also have Buddy enter tapped and attacking.",
+			"power": "3",
+			"toughness": "4",
+			"colors": [
+				"B",
+				"R",
+				"G"
+			],
+			"color_identity": [
+				"B",
+				"R",
+				"G"
+			]
+		},
+		{
+			"name": "Apollyon, Envoy of the End",
+			"type": "custom",
+			"id": "15",
+			"image_uris": {
+				"large": "https://i.imgur.com/a1I8DYi.png"
+			},
+			"mana_cost": "{3}{G}{W}{U}",
+			"cmc": 6,
+			"type_line": "Legendary Creature — Elder Angel",
+			"oracle_text": "Flying\nAt the beginning of combat on your turn, scry 2, then reveal the top card of your library. If it’s an Aura card, for each creature you control that Aura could target, create a token that’s a copy of that card attached to that creature. Otherwise, put that card into your hand and you gain life equal to its mana value.",
+			"power": "6",
+			"toughness": "6",
+			"colors": [
+				"W",
+				"U",
+				"G"
+			]
+		}
+	]
 }
